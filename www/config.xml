@@ -30,4 +30,6 @@
 <icon src="icons/android/main.png" gap:platform="android" gap:density="hdpi" />
 <icon src="icons/android/main.png" gap:platform="android" gap:density="xhdpi" />
 
+<gap:splash src="splash.png" />
+
 </widget>
