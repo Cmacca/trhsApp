@@ -23,4 +23,6 @@
 
 <access origin="*" />
 
+<icon src="icon.png" />
+
 </widget>
