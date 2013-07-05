@@ -28,3 +28,17 @@ function loadContents(url, callback) {
   	}
  
 } 
+
+//FUnction to control Android back-button
+
+document.addEventListener("deviceready", function () {
+            document.addEventListener("backbutton", function (e) {
+                if ($.mobile.activePage.is('#page-one')) {
+                    e.preventDefault();
+                    navigator.app.exitApp();
+                }
+                else {
+                    navigator.app.backHistory()
+                }
+            }, false);
+        }, false);
