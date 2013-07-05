@@ -17,9 +17,10 @@
         Classify Studios 
     </author>
 
+</widget>
+
 <preference name="webviewbounce" value="false" />
 
 <preference name="prerendered-icon" value="true" />
 
 <access origin="*" />
-</widget>
