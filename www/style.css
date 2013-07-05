@@ -13,7 +13,6 @@
 body, .ui-body-c, .ui-overlay-c {
     text-align:center;
     background-image: url('images/trbg.png');
-background-attachment: fixed;
 background-position:center;
 background-size: cover;
 font-family:OpenSansRegular !important;
