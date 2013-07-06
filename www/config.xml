@@ -25,10 +25,6 @@
 
 <icon src="icon.png" />
 
-<icon src="icons/android/main.png" gap:platform="android" gap:density="ldpi" />
-<icon src="icons/android/main.png" gap:platform="android" gap:density="mdpi" />
-<icon src="icons/android/main.png" gap:platform="android" gap:density="hdpi" />
-<icon src="icons/android/main.png" gap:platform="android" gap:density="xhdpi" />
 
 <gap:splash src="splash.png" />
 
