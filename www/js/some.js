@@ -42,3 +42,8 @@ document.addEventListener("deviceready", function () {
                 }
             }, false);
         }, false);
+        
+function onBackKeyDown() {
+    history.go(-1);
+    navigator.app.backHistory();
+}
