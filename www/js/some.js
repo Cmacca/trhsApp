@@ -33,7 +33,7 @@ function loadContents(url, callback) {
 
 document.addEventListener("deviceready", function () {
             document.addEventListener("backbutton", function (e) {
-                if ($.mobile.activePage.is('#page-one')) {
+                if ($.mobile.activePage.is('#home')) {
                     e.preventDefault();
                     navigator.app.exitApp();
                 }
