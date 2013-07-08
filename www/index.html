@@ -98,7 +98,7 @@
         <!--Page3-->
         <div id='page-three' data-role='page'>
             <div data-role='header' data-theme='b' data-position='fixed'>
-                <a data-direction='reverse' data-icon='back' data-rel='back' onClick='onBackKeyDown()'>Back</a>
+                <a data-role='button' href='#home' data-icon='back'>Back</a>
                 <h1>Weather Closures</h1>
             </div>
             <div data-role='content' id='closure'>
@@ -108,6 +108,7 @@ function(results) {
    $('#closure').html(results); 
 });
                 </script>
+                <a data-role='button' href='#home'>Home</a>
             </div>
             <div data-role='footer' data-theme='b' data-position='fixed'>
                 <p>&copy; 2013 TRHS | <span class='attr'>Created by <a href='http://classifystudios.com'>ClassifyStudios.com</a></span></p>
