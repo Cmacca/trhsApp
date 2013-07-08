@@ -18,10 +18,6 @@ background-size: cover;
 font-family:OpenSansRegular !important;
 }
 
-.nono {
-    visibility:hidden;
-}
-
 div[data-role='footer'], div[data-role='header'], div[data-role='content'], a[data-role='button'], li {
     font-family:OpenSansRegular !Important;
 }
