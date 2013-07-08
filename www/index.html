@@ -14,17 +14,6 @@
 
     </head>
     <body>
-    <script type='text/javascript'>
-                    loadContents('https://www.dcsdk12.org/schoolclosureinformation/index.htm', 
-function(results) {  
-   $('#lol').html(results); 
-});
-                </script>
-                <div id='yolo'>
-                <div id='lol' class='nono'>
-                    
-                </div>
-                </div>
         <!--Page1-->
         <div id='home' data-role='page'>
             <div data-role='header' data-theme='b' data-position='fixed'>
@@ -114,7 +103,10 @@ function(results) {
             </div>
             <div data-role='content' id='closure'>
                 <script type='text/javascript'>
-                    $('#closure').load('index.html #contents');
+                    loadContents('https://www.dcsdk12.org/schoolclosureinformation/index.htm', 
+function(results) {  
+   $('#closure').html(results); 
+});
                 </script>
             </div>
             <div data-role='footer' data-theme='b' data-position='fixed'>
