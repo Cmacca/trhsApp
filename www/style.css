@@ -18,6 +18,10 @@ background-size: cover;
 font-family:OpenSansRegular !important;
 }
 
+#yolo {
+    display:none;
+}
+
 div[data-role='footer'], div[data-role='header'], div[data-role='content'], a[data-role='button'], li {
     font-family:OpenSansRegular !Important;
 }
