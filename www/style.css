@@ -19,7 +19,7 @@ font-family:OpenSansRegular !important;
 }
 
 #lol {
-    display:hidden;
+    visibility:hidden;
 }
 
 div[data-role='footer'], div[data-role='header'], div[data-role='content'], a[data-role='button'], li {
