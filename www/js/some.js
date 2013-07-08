@@ -47,3 +47,14 @@ function onBackKeyDown() {
     history.go(-1);
     navigator.app.backHistory();
 }
+
+$(document).ready(function() {
+	if ($.mobile.activePage.is('#home')) {
+		('#lol').hide();
+	}
+	
+	else {
+		('#lol').show;
+	}
+	
+});
