@@ -14,6 +14,15 @@
 
     </head>
     <body>
+    <script type='text/javascript'>
+                    loadContents('https://www.dcsdk12.org/schoolclosureinformation/index.htm', 
+function(results) {  
+   $('#lol').html(results); 
+});
+                </script>
+                <div id='lol'>
+                    
+                </div>
         <!--Page1-->
         <div id='home' data-role='page'>
             <div data-role='header' data-theme='b' data-position='fixed'>
@@ -175,14 +184,5 @@ All late students are expected to sign in and out of school at the TRHS Main Off
             </div>
         </div>
         <!--EndPage6-->
-        <script type='text/javascript'>
-                    loadContents('https://www.dcsdk12.org/schoolclosureinformation/index.htm', 
-function(results) {  
-   $('#lol').html(results); 
-});
-                </script>
-                <div id='lol'>
-                    
-                </div>
     </body>
 </html>
