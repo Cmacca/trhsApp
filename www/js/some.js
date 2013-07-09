@@ -66,8 +66,8 @@ $(document).ready(function() {
 $(document).ready(function(){
 document.addEventListener("backbutton", function (e) {
    if ($.mobile.activePage.is('#page-three')) {
-	var urly = $('a.phix').attr('href')
-	window.location = urly;
+	var urly = $('a.phix').attr('href');
+	window.location.href = "'" + urly + "'";
    };
 });
 
