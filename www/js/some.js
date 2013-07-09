@@ -37,6 +37,10 @@ document.addEventListener("deviceready", function () {
                     e.preventDefault();
                     navigator.app.exitApp();
                 }
+                
+                if ($.mobile.activePage.is('#page-three')) {
+                	$('a.phix')[0].click()
+                }
                 else {
                     navigator.app.backHistory()
                 }
@@ -58,3 +62,5 @@ $(document).ready(function() {
 	}
 	
 });
+
+
