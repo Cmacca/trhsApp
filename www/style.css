@@ -26,6 +26,8 @@ div[data-role='footer'], div[data-role='header'], div[data-role='content'], a[da
     display:none;
 }
 
+.listview li {translateZ(0);}
+
 .span-6 {
 display: block !important;
 padding: 10px;
