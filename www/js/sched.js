@@ -15,7 +15,7 @@ $(document).ready(function() {
          
          console.log(localStorage);
          
-         $('input[name='1']').attr("value", localStorage.uno);
+         $('#one').attr("value", localStorage.uno);
     });
     
 });
