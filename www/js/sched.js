@@ -13,4 +13,5 @@ $(document).ready(function() {
          localStorage.seven= clist[6]['value'];
          localStorage.eight= clist[7]['value'];
          
+         $('input[name='1']').attr("value", localStorage.uno);
     });
