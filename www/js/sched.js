@@ -4,7 +4,7 @@ $(document).ready(function() {
     
     $('#sub').click(function() {
     var clist = $('#form').serializeArray();
-         localStorage.uno = clist[0]['value'];
+         localStorage.uno = "'" + clist[0]['value'] + "'";
          localStorage.dos = clist[1]['value'];
          localStorage.tres= clist[2]['value'];
          localStorage.quatro= clist[3]['value'];
