@@ -13,3 +13,12 @@ Here is some technical information for those who would like to contribute to the
 * The framework that was used was jQuery Mobile
 * There are a couple of cross-domain AJAX requests to data such as weather closure information as well as the teacher directory
 * All the code is licensed, and the specifics can be found in the License.md file
+
+
+Some features we would like to add in the future are:
+
+*Infinite Campus integration
+*Storing the user's schedule
+*Notifications when next class has started
+
+Any help with these features is also appreciated.
