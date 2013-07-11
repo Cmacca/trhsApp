@@ -4,7 +4,7 @@ $(document).ready(function() {
     
     $('#sub').click(function() {
     var clist = $('#form').serializeArray();
-         localStorage.uno = "'" + clist[0]['value'] + "'";
+         localStorage.uno = clist[0]['value'];
          localStorage.dos = clist[1]['value'];
          localStorage.tres= clist[2]['value'];
          localStorage.quatro= clist[3]['value'];
@@ -18,4 +18,11 @@ $(document).ready(function() {
         
     });
      $('#one').attr("value", localStorage.uno);
+$('#two').attr("value", localStorage.dos);
+$('#three').attr("value", localStorage.tres);
+$('#four').attr("value", localStorage.quatro);
+$('#five').attr("value", localStorage.cinco);
+$('#six').attr("value", localStorage.six);
+$('#seven').attr("value", localStorage.seven);
+$('#eight').attr("value", localStorage.eight);
 });
