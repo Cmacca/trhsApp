@@ -15,7 +15,7 @@ $(document).ready(function() {
          
          console.log(localStorage);
          
-        
+        alert('Your settings have been saved!');
     });
      $('#one').attr("value", localStorage.uno);
 $('#two').attr("value", localStorage.dos);
