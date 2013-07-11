@@ -18,7 +18,7 @@ Here is some technical information for those who would like to contribute to the
 Some features we would like to add in the future are:
 
 * Infinite Campus integration
-* Storing the user's schedule
+* ~~Storing the user's schedule~~ *Has been implemented*
 * Notifications when next class has started
 
 Any help with these features is also appreciated.
